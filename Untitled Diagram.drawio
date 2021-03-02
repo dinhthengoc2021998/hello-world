@@ -1,1 +1,157 @@
-<mxfile host="app.diagrams.net" modified="2021-03-02T07:32:17.432Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" version="14.4.3" etag="-g6AZ98yps2D9QPZL8qc" type="github"><diagram id="2rUj542k8T45VktFn8Um">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-02T10:31:06.653Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="Nk1x32bO3Rs49dMsNlx1" version="14.4.3" type="github">
+  <diagram id="2rUj542k8T45VktFn8Um" name="Page-1">
+    <mxGraphModel dx="1019" dy="1619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-1" value="General" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="20" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="G0-zsbQBzaGTJt9QEt9x-2" target="G0-zsbQBzaGTJt9QEt9x-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-2" value="Call MINUTELY View" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="20" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="G0-zsbQBzaGTJt9QEt9x-3" target="G0-zsbQBzaGTJt9QEt9x-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="50" />
+              <mxPoint x="450" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="G0-zsbQBzaGTJt9QEt9x-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-3" value="Insert/Update MINUTELY Table Clickhouse" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="20" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-4" value="TIME_LEVEL= MINUTELY" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="20" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="G0-zsbQBzaGTJt9QEt9x-6" target="G0-zsbQBzaGTJt9QEt9x-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-6" value="Call HOURLY View" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="90" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G0-zsbQBzaGTJt9QEt9x-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="G0-zsbQBzaGTJt9QEt9x-7" target="G0-zsbQBzaGTJt9QEt9x-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="455" y="130" />
+              <mxPoint x="455" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-7" value="Insert/Update HOURLY Table Clickhouse" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="90" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-10" value="TIME_LEVEL= HOURLY" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="90" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-13" value="Insert/Update MINUTELY Table ORACLE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="20" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-15" value="Insert/Update HOURLY Table ORACLE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="90" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G0-zsbQBzaGTJt9QEt9x-16" target="G0-zsbQBzaGTJt9QEt9x-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-16" value="Call DAILY View" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="170" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="G0-zsbQBzaGTJt9QEt9x-17" target="G0-zsbQBzaGTJt9QEt9x-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="455" y="210" />
+              <mxPoint x="455" y="261" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G0-zsbQBzaGTJt9QEt9x-17" target="G0-zsbQBzaGTJt9QEt9x-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-17" value="Insert/Update DAILY Table Clickhouse" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="170" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-18" value="TIME_LEVEL= DAILY" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="182" y="170" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-19" value="Insert/Update DAILY Table ORACLE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="170" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="G0-zsbQBzaGTJt9QEt9x-20" target="G0-zsbQBzaGTJt9QEt9x-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-20" value="Call WEEKLY View" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="251" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="G0-zsbQBzaGTJt9QEt9x-21" target="G0-zsbQBzaGTJt9QEt9x-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="455" y="290" />
+              <mxPoint x="455" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="G0-zsbQBzaGTJt9QEt9x-21" target="G0-zsbQBzaGTJt9QEt9x-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-21" value="Insert/Update WEEKLY Table Clickhouse" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="489" y="250" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-22" value="TIME_LEVEL= WEEKLY" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="181" y="250" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-23" value="Insert/Update WEEKLY Table ORACLE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="250" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="G0-zsbQBzaGTJt9QEt9x-24" target="G0-zsbQBzaGTJt9QEt9x-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-24" value="Call MONTHLY View" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="340" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G0-zsbQBzaGTJt9QEt9x-25" target="G0-zsbQBzaGTJt9QEt9x-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-25" value="Insert/Update MONTHLY Table Clickhouse" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="340" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-26" value="TIME_LEVEL= MONTHLY" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="340" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-27" value="Insert/Update MONTHLY Table ORACLE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="340" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-38" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="410" as="sourcePoint" />
+            <mxPoint x="290" y="-82.22222900390625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-39" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="412.22" as="sourcePoint" />
+            <mxPoint x="680" y="-80.00222900390625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-40" value="&amp;nbsp;CLICKHOUSE" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="490" y="-60" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-41" value="ORACLE" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="720" y="-60" width="140" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
