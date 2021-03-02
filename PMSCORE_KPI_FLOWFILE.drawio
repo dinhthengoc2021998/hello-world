@@ -1,19 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2021-03-02T10:31:06.653Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="Nk1x32bO3Rs49dMsNlx1" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-02T10:45:52.807Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="f4BBo8FIF3TqzRlDE6LG" version="14.4.3" type="github">
   <diagram id="2rUj542k8T45VktFn8Um" name="Page-1">
-    <mxGraphModel dx="1019" dy="1619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2306" dy="1841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="G0-zsbQBzaGTJt9QEt9x-1" value="General" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="20" width="80" height="40" as="geometry" />
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-1" value="&lt;font style=&quot;font-size: 30px&quot;&gt;General&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-50" y="-80" width="180" height="470" as="geometry" />
         </mxCell>
-        <mxCell id="G0-zsbQBzaGTJt9QEt9x-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="G0-zsbQBzaGTJt9QEt9x-2" target="G0-zsbQBzaGTJt9QEt9x-3">
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="G0-zsbQBzaGTJt9QEt9x-2" target="G0-zsbQBzaGTJt9QEt9x-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="G0-zsbQBzaGTJt9QEt9x-2" value="Call MINUTELY View" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-2" value="Call MINUTELY View" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="20" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="G0-zsbQBzaGTJt9QEt9x-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="G0-zsbQBzaGTJt9QEt9x-3" target="G0-zsbQBzaGTJt9QEt9x-6">
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" parent="1" source="G0-zsbQBzaGTJt9QEt9x-3" target="G0-zsbQBzaGTJt9QEt9x-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="450" y="50" />
@@ -21,29 +21,29 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="G0-zsbQBzaGTJt9QEt9x-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="G0-zsbQBzaGTJt9QEt9x-3">
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="G0-zsbQBzaGTJt9QEt9x-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="720" y="40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G0-zsbQBzaGTJt9QEt9x-3" value="Insert/Update MINUTELY Table Clickhouse" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-3" value="Insert/Update MINUTELY Table Clickhouse" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="490" y="20" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="G0-zsbQBzaGTJt9QEt9x-4" value="TIME_LEVEL= MINUTELY" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-4" value="TIME_LEVEL= MINUTELY" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="20" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="G0-zsbQBzaGTJt9QEt9x-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="G0-zsbQBzaGTJt9QEt9x-6" target="G0-zsbQBzaGTJt9QEt9x-7">
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="G0-zsbQBzaGTJt9QEt9x-6" target="G0-zsbQBzaGTJt9QEt9x-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="G0-zsbQBzaGTJt9QEt9x-6" value="Call HOURLY View" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-6" value="Call HOURLY View" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="90" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="G0-zsbQBzaGTJt9QEt9x-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G0-zsbQBzaGTJt9QEt9x-7">
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="G0-zsbQBzaGTJt9QEt9x-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="720" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G0-zsbQBzaGTJt9QEt9x-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="G0-zsbQBzaGTJt9QEt9x-7" target="G0-zsbQBzaGTJt9QEt9x-16">
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="G0-zsbQBzaGTJt9QEt9x-7" target="G0-zsbQBzaGTJt9QEt9x-16" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="455" y="130" />
@@ -51,25 +51,25 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="G0-zsbQBzaGTJt9QEt9x-7" value="Insert/Update HOURLY Table Clickhouse" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-7" value="Insert/Update HOURLY Table Clickhouse" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="490" y="90" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="G0-zsbQBzaGTJt9QEt9x-10" value="TIME_LEVEL= HOURLY" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-10" value="TIME_LEVEL= HOURLY" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="90" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="G0-zsbQBzaGTJt9QEt9x-13" value="Insert/Update MINUTELY Table ORACLE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-13" value="Insert/Update MINUTELY Table ORACLE" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="720" y="20" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="G0-zsbQBzaGTJt9QEt9x-15" value="Insert/Update HOURLY Table ORACLE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-15" value="Insert/Update HOURLY Table ORACLE" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="720" y="90" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="G0-zsbQBzaGTJt9QEt9x-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G0-zsbQBzaGTJt9QEt9x-16" target="G0-zsbQBzaGTJt9QEt9x-17">
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="G0-zsbQBzaGTJt9QEt9x-16" target="G0-zsbQBzaGTJt9QEt9x-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="G0-zsbQBzaGTJt9QEt9x-16" value="Call DAILY View" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-16" value="Call DAILY View" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="170" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="G0-zsbQBzaGTJt9QEt9x-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="G0-zsbQBzaGTJt9QEt9x-17" target="G0-zsbQBzaGTJt9QEt9x-20">
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="G0-zsbQBzaGTJt9QEt9x-17" target="G0-zsbQBzaGTJt9QEt9x-20" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="455" y="210" />
@@ -77,25 +77,25 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="G0-zsbQBzaGTJt9QEt9x-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G0-zsbQBzaGTJt9QEt9x-17" target="G0-zsbQBzaGTJt9QEt9x-19">
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="G0-zsbQBzaGTJt9QEt9x-17" target="G0-zsbQBzaGTJt9QEt9x-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="G0-zsbQBzaGTJt9QEt9x-17" value="Insert/Update DAILY Table Clickhouse" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-17" value="Insert/Update DAILY Table Clickhouse" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="490" y="170" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="G0-zsbQBzaGTJt9QEt9x-18" value="TIME_LEVEL= DAILY" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-18" value="TIME_LEVEL= DAILY" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="182" y="170" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="G0-zsbQBzaGTJt9QEt9x-19" value="Insert/Update DAILY Table ORACLE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-19" value="Insert/Update DAILY Table ORACLE" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="720" y="170" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="G0-zsbQBzaGTJt9QEt9x-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="G0-zsbQBzaGTJt9QEt9x-20" target="G0-zsbQBzaGTJt9QEt9x-21">
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="G0-zsbQBzaGTJt9QEt9x-20" target="G0-zsbQBzaGTJt9QEt9x-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="G0-zsbQBzaGTJt9QEt9x-20" value="Call WEEKLY View" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-20" value="Call WEEKLY View" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="251" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="G0-zsbQBzaGTJt9QEt9x-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="G0-zsbQBzaGTJt9QEt9x-21" target="G0-zsbQBzaGTJt9QEt9x-24">
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="G0-zsbQBzaGTJt9QEt9x-21" target="G0-zsbQBzaGTJt9QEt9x-24" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="455" y="290" />
@@ -103,53 +103,80 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="G0-zsbQBzaGTJt9QEt9x-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="G0-zsbQBzaGTJt9QEt9x-21" target="G0-zsbQBzaGTJt9QEt9x-23">
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="G0-zsbQBzaGTJt9QEt9x-21" target="G0-zsbQBzaGTJt9QEt9x-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="G0-zsbQBzaGTJt9QEt9x-21" value="Insert/Update WEEKLY Table Clickhouse" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-21" value="Insert/Update WEEKLY Table Clickhouse" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="489" y="250" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="G0-zsbQBzaGTJt9QEt9x-22" value="TIME_LEVEL= WEEKLY" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-22" value="TIME_LEVEL= WEEKLY" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="181" y="250" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="G0-zsbQBzaGTJt9QEt9x-23" value="Insert/Update WEEKLY Table ORACLE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-23" value="Insert/Update WEEKLY Table ORACLE" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="720" y="250" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="G0-zsbQBzaGTJt9QEt9x-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="G0-zsbQBzaGTJt9QEt9x-24" target="G0-zsbQBzaGTJt9QEt9x-25">
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="G0-zsbQBzaGTJt9QEt9x-24" target="G0-zsbQBzaGTJt9QEt9x-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="G0-zsbQBzaGTJt9QEt9x-24" value="Call MONTHLY View" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-24" value="Call MONTHLY View" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="340" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="G0-zsbQBzaGTJt9QEt9x-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G0-zsbQBzaGTJt9QEt9x-25" target="G0-zsbQBzaGTJt9QEt9x-27">
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="G0-zsbQBzaGTJt9QEt9x-25" target="G0-zsbQBzaGTJt9QEt9x-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="G0-zsbQBzaGTJt9QEt9x-25" value="Insert/Update MONTHLY Table Clickhouse" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-25" value="Insert/Update MONTHLY Table Clickhouse" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="490" y="340" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="G0-zsbQBzaGTJt9QEt9x-26" value="TIME_LEVEL= MONTHLY" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-26" value="TIME_LEVEL= MONTHLY" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="340" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="G0-zsbQBzaGTJt9QEt9x-27" value="Insert/Update MONTHLY Table ORACLE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-27" value="Insert/Update MONTHLY Table ORACLE" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="720" y="340" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="G0-zsbQBzaGTJt9QEt9x-38" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-38" value="" style="endArrow=none;dashed=1;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="290" y="410" as="sourcePoint" />
             <mxPoint x="290" y="-82.22222900390625" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G0-zsbQBzaGTJt9QEt9x-39" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-39" value="" style="endArrow=none;dashed=1;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="680" y="412.22" as="sourcePoint" />
             <mxPoint x="680" y="-80.00222900390625" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G0-zsbQBzaGTJt9QEt9x-40" value="&amp;nbsp;CLICKHOUSE" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-40" value="&lt;font style=&quot;font-size: 20px&quot;&gt;&amp;nbsp;CLICKHOUSE&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="490" y="-60" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="G0-zsbQBzaGTJt9QEt9x-41" value="ORACLE" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="720" y="-60" width="140" height="40" as="geometry" />
+        <mxCell id="G0-zsbQBzaGTJt9QEt9x-41" value="&lt;font style=&quot;font-size: 20px&quot;&gt;ORACLE&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="880" y="-60" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="J8X9ERf7dgiESnzi6MTJ-1" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-50" y="410" as="sourcePoint" />
+            <mxPoint x="990" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J8X9ERf7dgiESnzi6MTJ-2" value="&lt;font style=&quot;font-size: 20px&quot;&gt;1&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="320" y="-60" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="J8X9ERf7dgiESnzi6MTJ-3" value="&lt;font style=&quot;font-size: 30px&quot;&gt;Details&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="430" width="180" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="J8X9ERf7dgiESnzi6MTJ-4" value="&lt;font style=&quot;font-size: 20px&quot;&gt;2&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="730" y="-60" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="J8X9ERf7dgiESnzi6MTJ-5" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="770" as="sourcePoint" />
+            <mxPoint x="1000" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J8X9ERf7dgiESnzi6MTJ-6" value="&lt;font style=&quot;font-size: 20px&quot;&gt;1&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="160" y="430" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="J8X9ERf7dgiESnzi6MTJ-8" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 20px&quot;&gt;Vấn đề:&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;- KPI Động =&amp;gt; Thay đổi và update view khi có KPI Mới hoặc Update KPI&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;- Insert và Update dữ liệu bên Clickhouse sẽ cần 1 bảng MAP_VIEW bên Clickhouse&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;- Dữ liệu của Counter cần cộng dồn có cách xử lý đặc biệt&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Ưu điểm:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;- Các view đồng bộ cho Clickhouse bằng 1 đoạn Code không cần xử lý cho 2 DB&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;- Tối ưu hiệu quả query leo theo từng mức và số lượng cột không bị giới hạn&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="430" width="760" height="290" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
